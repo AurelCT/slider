@@ -1,0 +1,24 @@
+
+.Header {
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+.slider-figure {
+    display: none;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .is-active {
+    display: block;
+  }
+
+.slider-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

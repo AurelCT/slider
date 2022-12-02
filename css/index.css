@@ -1,0 +1,75 @@
+.Header {
+  color: white;
+  background-color: rgb(196, 41, 41);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Carousel-img {
+  width: 100%;
+}
+.slider-figure {
+  display: none;
+}
+.is-active {
+  display: block;
+}
+
+.slider {
+  margin-right: 200px;
+  margin-left: 200px;
+  position: relative;
+}
+
+.paginationList { 
+  bottom: 50px;
+  column-gap: 3em;
+  
+}
+  
+.slider-legend {
+  font-size: 100%;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
+
+/* On s'occupe des flèches avec la div paginationArrow */
+
+.paginationArrow{
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+    height: 30px; 
+    width: 30px; 
+    border: 5px solid rgba(0, 0, 0, 1);
+    border-radius: 50%; 
+    cursor: pointer;
+    text-align: center;
+}
+
+li:hover {
+  background-color: aquamarine;
+}
+.focusList {
+  background-color: rgb(196, 41, 41);
+} 
+
+button {
+  position: absolute;
+  left: 50%;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: rgb(122, 122, 88);
+}

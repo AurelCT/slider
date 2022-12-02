@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+
+    <title>Sliders</title>
+</head>
+<body>
+    <header class="Header">
+        <nav class="Header-nav">
+            <h4> SLIDER Les mondes parallele</h4>
+            <a href="#">Etape 1</a>
+            <a href="#">Etape 2</a>
+            <a href="#">Etape 3</a>
+            
+        </nav>
+        
+    </header>
+
+    <main >
+       <div class="slider-layout">
+            <div id="architecture"  class="slider">
+                <figure class="slider-figure is-active ">
+                    <figcaption class="slider-legend">Parasite</figcaption>
+                    <img class="Carousel-img" src="img2/parasite.jpg" alt="parasite">
+                </figure>
+                <figure class="slider-figure">
+                    <figcaption class="slider-legend"> Chihiro </figcaption>
+                    <img class="Carousel-img" src="img2/chihiro.jpg" alt="Chihiro">
+                </figure>
+                <figure class="slider-figure">
+                    <figcaption class="slider-legend">Old Boy</figcaption>
+                    <img class="Carousel-img" src="img2/old-boy.jpg" alt="OldBoy">
+                </figure>
+                <figure class="slider-figure">
+                    <figcaption class="slider-legend">Donnie Darko</figcaption>
+                    <img class="Carousel-img" src="img2/donnie-darko.jpg" alt="DonnieDarko">
+                </figure>
+
+                  
+                <nav class="slider-nav">
+                    <ol class="paginationList">
+                    </ol>
+                    <div class="paginationArrow">
+                        <a href="#" rel="prev" id="try" aria-label="photo précédente">
+                            <span class="icon-arrow-left" aria-hidden="true" > <  </span>
+                        </a>  
+                        <a href="#" rel="next" id="next" aria-label="photo suivante">
+                            <span class="icon-arrow-right" aria-hidden="true"> >  </span>
+                        </a>
+                    </div>
+                    
+                </nav>
+            </div>
+       </div>
+    </main>
+    <script src="js/slider.js"></script>
+</body>
+</html>
